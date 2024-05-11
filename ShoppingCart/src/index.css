@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    .btn {
+        @apply px-3 py-2 text-white bg-green-400 rounded;
+    }
+
+    .active {
+        @apply font-bold text-slate-900;
+    }
+}
